@@ -1,0 +1,13 @@
+policy,app,total,beneficial,beneficial_rate
+baseline,emergency/bank,497,258,51.91
+baseline,file download,497,261,52.52
+baseline,video meeting,497,258,51.91
+baseline,voice call,497,259,52.11
+predictive_hard,emergency/bank,362,306,84.53
+predictive_hard,file download,309,124,40.13
+predictive_hard,video meeting,242,182,75.21
+predictive_hard,voice call,244,189,77.46
+predictive_mbb,emergency/bank,362,306,84.53
+predictive_mbb,file download,309,124,40.13
+predictive_mbb,video meeting,242,182,75.21
+predictive_mbb,voice call,244,189,77.46

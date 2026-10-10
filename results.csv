@@ -1,0 +1,49 @@
+user,app,policy,mean_qoe,outage_s,drop_events,switches,interruption_s,regret
+pedestrian (5 km/h),emergency/bank,baseline,0.923,2.86,1.58,1.58,2.37,0.028
+pedestrian (5 km/h),emergency/bank,predictive_hard,0.946,0.84,0.84,0.8,1.2,0.004
+pedestrian (5 km/h),emergency/bank,predictive_mbb,0.947,0.04,0.04,0.8,0.16,0.004
+pedestrian (5 km/h),emergency/bank,satellite_only,0.748,428.08,0.76,0.0,0.0,0.202
+pedestrian (5 km/h),voice call,baseline,0.903,3.62,1.74,1.58,2.37,0.035
+pedestrian (5 km/h),voice call,predictive_hard,0.931,2.22,1.54,1.12,1.68,0.007
+pedestrian (5 km/h),voice call,predictive_mbb,0.932,1.04,0.48,1.12,0.224,0.006
+pedestrian (5 km/h),voice call,satellite_only,0.721,430.96,2.8,0.0,0.0,0.217
+pedestrian (5 km/h),video meeting,baseline,0.904,4.16,1.92,1.58,2.37,0.035
+pedestrian (5 km/h),video meeting,predictive_hard,0.93,2.6,1.88,1.16,1.74,0.008
+pedestrian (5 km/h),video meeting,predictive_mbb,0.93,1.36,0.8,1.16,0.232,0.008
+pedestrian (5 km/h),video meeting,satellite_only,0.722,432.04,3.88,0.0,0.0,0.217
+pedestrian (5 km/h),file download,baseline,0.9,64.52,7.5,1.58,2.37,0.024
+pedestrian (5 km/h),file download,predictive_hard,0.909,42.76,9.14,1.94,2.91,0.015
+pedestrian (5 km/h),file download,predictive_mbb,0.91,41.14,7.86,1.94,0.388,0.015
+pedestrian (5 km/h),file download,satellite_only,0.525,667.48,101.46,0.0,0.0,0.4
+car (90 km/h),emergency/bank,baseline,0.92,8.3,4.18,4.18,6.27,0.034
+car (90 km/h),emergency/bank,predictive_hard,0.941,3.76,3.76,3.76,5.64,0.013
+car (90 km/h),emergency/bank,predictive_mbb,0.949,0.0,0.0,3.76,0.752,0.005
+car (90 km/h),emergency/bank,satellite_only,0.847,26.62,0.54,0.0,0.0,0.107
+car (90 km/h),voice call,baseline,0.903,8.34,4.2,4.18,6.27,0.039
+car (90 km/h),voice call,predictive_hard,0.931,2.0,1.94,1.94,2.91,0.011
+car (90 km/h),voice call,predictive_mbb,0.935,0.04,0.04,1.94,0.388,0.007
+car (90 km/h),voice call,satellite_only,0.816,27.04,0.96,0.0,0.0,0.126
+car (90 km/h),video meeting,baseline,0.904,8.44,4.24,4.18,6.27,0.038
+car (90 km/h),video meeting,predictive_hard,0.931,1.94,1.92,1.84,2.76,0.011
+car (90 km/h),video meeting,predictive_mbb,0.934,0.08,0.08,1.84,0.368,0.008
+car (90 km/h),video meeting,satellite_only,0.816,27.64,1.56,0.0,0.0,0.126
+car (90 km/h),file download,baseline,0.904,15.18,4.88,4.18,6.27,0.03
+car (90 km/h),file download,predictive_hard,0.917,9.8,3.26,2.38,3.57,0.017
+car (90 km/h),file download,predictive_mbb,0.918,8.28,2.14,2.38,0.476,0.015
+car (90 km/h),file download,satellite_only,0.534,115.5,28.02,0.0,0.0,0.4
+train (160 km/h),emergency/bank,baseline,0.908,8.34,4.18,4.18,6.27,0.046
+train (160 km/h),emergency/bank,predictive_hard,0.939,2.68,2.68,2.68,4.02,0.015
+train (160 km/h),emergency/bank,predictive_mbb,0.949,0.0,0.0,2.68,0.536,0.006
+train (160 km/h),emergency/bank,satellite_only,0.843,14.94,0.58,0.0,0.0,0.111
+train (160 km/h),voice call,baseline,0.892,8.36,4.18,4.18,6.27,0.051
+train (160 km/h),voice call,predictive_hard,0.929,1.88,1.88,1.82,2.73,0.014
+train (160 km/h),voice call,predictive_mbb,0.934,0.06,0.06,1.82,0.364,0.009
+train (160 km/h),voice call,satellite_only,0.811,15.24,0.88,0.0,0.0,0.132
+train (160 km/h),video meeting,baseline,0.893,8.4,4.18,4.18,6.27,0.05
+train (160 km/h),video meeting,predictive_hard,0.928,1.88,1.88,1.84,2.76,0.015
+train (160 km/h),video meeting,predictive_mbb,0.934,0.04,0.04,1.84,0.368,0.009
+train (160 km/h),video meeting,satellite_only,0.811,15.5,1.14,0.0,0.0,0.132
+train (160 km/h),file download,baseline,0.895,11.58,4.42,4.18,6.27,0.042
+train (160 km/h),file download,predictive_hard,0.913,7.32,2.18,1.86,2.79,0.024
+train (160 km/h),file download,predictive_mbb,0.915,6.32,1.52,1.86,0.372,0.022
+train (160 km/h),file download,satellite_only,0.534,65.98,16.58,0.0,0.0,0.403
